@@ -1,0 +1,70 @@
+.image
+{
+  border : 3px black solid;
+  border-radius: 50px;
+  box-shadow:1px 1px 0px black;
+  opacity: 0.6;
+  max-width: 100%;
+	height: auto;
+  
+}
+.Gandalf
+{
+  position:absolute;
+  width: 50%;
+  font-size: 100%;
+  color: white;
+  top: 70%;
+  text-align: center;
+  font-weight:bold;
+  margin-left:20%;
+}
+
+.reward
+{
+  position:absolute;
+  width:50%;
+  font-size:17px;
+  color:black;
+  top:10%;
+  text-align:center;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px grey;
+  opacity:0.85;
+  left:20%;
+  background-color:#F7F7F7 
+}
+.money
+{
+  color:#FF3021
+}
+
+.mini_Gandalf
+{
+  position:absolute;
+  width: 100%;
+  font-size: 100%;
+  color: white;
+  top: 70%;
+  text-align: center;
+  font-weight:bold;
+  opacity:0;
+ } 
+.containerUn:hover .image
+{
+  opacity: 1;
+}
+.containerUn:hover .Gandalf
+{
+  opacity: 0;
+  
+}
+.containerUn:hover .reward
+{
+  opacity:0;
+}
+.containerUn:hover .mini_Gandalf
+{
+  opacity:1;
+}
+
